@@ -1,7 +1,7 @@
 # Web Design and Development CAT 1 - Question 1
 
 ## Description
-This project implements a web form as per the requirements of CAT 1 Question 1 for the Web Design and Development course. The form includes various input elements including a dropdown menu, text areas, and contact information fields.
+This project implements a web form. The form includes various input elements including a dropdown menu, text areas, and contact information fields.
 
 ## Features
 - Topic selection dropdown with multiple options
@@ -38,9 +38,6 @@ CAT-1-Question-1/
 ├── styles.css
 └── README.md
 ```
-
-## Author
-Diana Kieru
 
 ## License
 This project is part of an academic assignment and is intended for educational purposes only.
