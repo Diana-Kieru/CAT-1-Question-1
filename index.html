@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label>What about us do you want to comment on?</label>
+                <div class="select-group">
+                    <select name="topic" id="topic">
+                        <option value="COMPANY">COMPANY</option>
+                        <option value="PRODUCTS">PRODUCTS</option>
+                        <option value="STORE">STORE</option>
+                        <option value="EMPLOYEE">EMPLOYEE</option>
+                        <option value="OTHER">OTHER</option>
+                    </select>
+                    <label for="other">Other:</label>
+                    <input type="text" id="other" name="other">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Enter your comments in the space provided below:</label>
+                <textarea name="comments" rows="6" cols="50"></textarea>
+            </div>
+
+            <div class="form-group">
+                <h3>Tell us how to get in touch with you:</h3>
+                <div class="contact-info">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
